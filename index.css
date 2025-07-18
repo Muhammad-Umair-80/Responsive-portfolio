@@ -242,3 +242,66 @@ body {
     padding: 0 8px;
   }
 }
+.about{
+  margin-top: 50px;
+}
+.about-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 40px;
+}
+.about-header p{
+  margin-top: 30px;
+}
+.about-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 250px;
+  max-width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+}
+
+.about-info {
+  background: #222831; /* dark background */
+  color: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  min-width: 280px;
+  max-width: 400px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+}
+
+.section-title.about-me {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4CAF50;
+  margin-bottom: 1rem;
+}
+
+.personal-info-table {
+  width: 100%;
+  color: #fff;
+}
+
+.personal-info-table td {
+  padding: 0.3rem 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .about-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-info, .about-image {
+    width: 100%;
+    max-width: 100%;
+  }
+}
