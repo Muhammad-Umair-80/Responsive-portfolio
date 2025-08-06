@@ -228,7 +228,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ### 📊 Stats
 
 ![GitHub repo size](https://github.com/Muhammad-Umair-80/Responsive-portfolio/blob/main/portolio.jpg)
-![GitHub last commit](https://img.shields.io/github/last-commit/Muhammad-Umair-80/portfolio-website)
+![GitHub last commit](https://github.com/Muhammad-Umair-80/Responsive-portfolio/blob/main/portfolio2.jpg)
 ![GitHub stars](https://img.shields.io/github/stars/Muhammad-Umair-80/portfolio-website)
 
 **Made with ❤️ by Muhammad Umair**
