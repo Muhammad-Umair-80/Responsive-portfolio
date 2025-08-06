@@ -150,7 +150,9 @@ body {
 }
 
 .button2 {
-  background-color: #e87532;
+  /* background-color: #e87532; */
+  border: 2px solid #e87532;
+  color: #e87532;
 }
 
 .button1:hover, .button2:hover {
@@ -159,6 +161,7 @@ body {
 }
 .button2:hover{
   background-color: #e87532;
+  color: #fff;
 }
 
 .hero-image {
