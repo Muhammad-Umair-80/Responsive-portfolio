@@ -142,22 +142,23 @@ body {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  color: #fff;
 }
 
 .button1 {
   background-color: #e87532;
-  color: #fff;
 }
 
 .button2 {
-  background-color: #ffffff;
-  border: 2px solid #e87532;
-  color: #e87532;
+  background-color: #e87532;
 }
 
 .button1:hover, .button2:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(232,117,50,0.2);
+  box-shadow: 0 6px 20px #e87532;
+}
+.button2:hover{
+  background-color: #e87532;
 }
 
 .hero-image {
